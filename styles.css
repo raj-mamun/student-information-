@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #24090997;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: hsla(21, 42%, 31%, 0.216);
+    color:rgba(255, 255, 255, 0.692);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+#session-tabs {
+    list-style-type: none;
+    padding: 0;
+}
+
+#session-tabs li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#session-tabs li button {
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#session-tabs li button.active {
+    background-color:#af4c4c ;
+}
+
+#student-info {
+    border: 2px solid #0410044f;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    text-align: center
+}
+
+th {
+    background-color: ;
+    color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even) {
+    background-color: ;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.pic{
+    position: absolute;
+    left:10%;
+    top:5%;
+    width: 165px;
+    height: 165px;
+}
